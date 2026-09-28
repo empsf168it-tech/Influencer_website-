@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaboration Packages & Rate Card — Influencer</title>
+  <meta name="description" content="Transparent collaboration packages and rate card for Influencer. Choose from Essential Collab, Signature 360°, or Brand Ambassador tiers.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom Master Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="tech-grid-bg">
+
+  <!-- Radial Background Glow -->
+  <div class="radial-glow"></div>
+
+  <!-- Header / Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-nexora">
+    <div class="container-fluid px-lg-5">
+      <a class="brand-logo" href="index.html">
+        <div class="logo-icon"><i class="bi bi-stars"></i></div>
+        <div class="logo-text">INFLUENCER <span class="logo-tag">OFFICIAL</span></div>
+      </a>
+
+      <div class="d-none d-xl-flex align-items-center gap-4 ms-auto me-4">
+        <a class="nav-link-custom" href="index.html">Home</a>
+        <a class="nav-link-custom" href="services.html">Content</a>
+        <a class="nav-link-custom active" href="pricing.html">Packages</a>
+        <a class="nav-link-custom" href="about.html">About</a>
+        <a class="nav-link-custom" href="contact.html">Contact</a>
+      </div>
+
+      <div class="d-flex align-items-center gap-3">
+        <button class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+        <a href="services.html" class="btn btn-nexora-primary d-none d-xl-inline-flex">
+          <i class="bi bi-camera-reels-fill"></i> Explore My Content
+        </a>
+        <button class="nav-icon-btn d-xl-none" id="mobileMenuToggle" aria-label="Open Navigation Menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-header">
+      <a class="brand-logo" href="index.html">
+        <div class="logo-icon"><i class="bi bi-stars"></i></div>
+        <div class="logo-text">INFLUENCER <span class="logo-tag">OFFICIAL</span></div>
+      </a>
+      <button class="nav-icon-btn" id="mobileMenuClose" aria-label="Close Menu">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Content</a>
+      <a href="pricing.html" class="active">Packages</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="d-flex flex-column gap-3 mt-4">
+      <a href="contact.html" class="btn btn-nexora-primary w-100 justify-content-center">Work With Me</a>
+      <a href="services.html" class="btn btn-nexora-secondary w-100 justify-content-center">Explore Content</a>
+    </div>
+  </div>
+
+  <!-- Pricing Hero -->
+  <section class="hero-section text-center">
+    <div class="container-fluid px-lg-5">
+      <div class="badge-tag mx-auto"><i class="bi bi-tag-fill"></i> COLLABORATION PACKAGES</div>
+      <h1 class="display-3 fw-bold mb-3">
+        CAMPAIGN TIERS. <br>
+        <span class="text-gradient-indigo">AUTHENTIC REACH.</span>
+      </h1>
+      <p class="lead text-secondary mx-auto mb-4" style="max-width: 650px;">
+        Transparent campaign packages designed for brands of all sizes. From dedicated single Reels to comprehensive 360° multi-platform ambassadorships.
+      </p>
+
+      <!-- Billing Cycle Toggle -->
+      <div class="d-inline-flex align-items-center gap-3 p-2 rounded-pill bg-surface border border-secondary border-opacity-20 mb-5">
+        <span class="text-secondary font-monospace text-xs">Single Campaign</span>
+        <div class="form-check form-switch m-0">
+          <input class="form-check-input" type="checkbox" role="switch" id="billingToggle" style="cursor: pointer;">
+        </div>
+        <span class="text-cyan font-monospace text-xs fw-bold">Multi-Month Partner <span class="badge bg-success text-dark ms-1">Save 20%</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Cards Grid -->
+  <section class="pb-5">
+    <div class="container-fluid px-lg-5">
+      <div class="row g-4 justify-content-center">
+        <!-- Developer / Essential Plan -->
+        <div class="col-lg-4 col-md-6 animate-zoom-in delay-100">
+          <div class="pricing-card h-100 shimmer-card d-flex flex-column">
+            <h4 class="fw-bold mb-2">Essential Collab</h4>
+            <p class="text-secondary small mb-4">Ideal for boutique brands, product launches, and targeted niche exposure.</p>
+            <div class="mb-4">
+              <span class="price-amount">$450</span>
+              <span class="price-period">/ single campaign</span>
+            </div>
+            <hr class="border-secondary border-opacity-10 my-4">
+            <div class="d-flex flex-column gap-2 small font-monospace text-secondary mb-4">
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 1x High-Resolution 4K Reel</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 3x Stories with Direct Links</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 30-Day Digital Usage License</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> Verified Telemetry Report</div>
+            </div>
+            <a href="contact.html" class="btn btn-nexora-secondary w-100 justify-content-center mt-auto">BOOK ESSENTIAL</a>
+          </div>
+        </div>
+
+        <!-- Professional Plan (Featured) -->
+        <div class="col-lg-4 col-md-6 animate-zoom-in delay-200">
+          <div class="pricing-card featured h-100 shimmer-card d-flex flex-column">
+            <h4 class="fw-bold mb-2 text-cyan">Signature 360°</h4>
+            <p class="text-secondary small mb-4">Designed for maximum viral reach, brand awareness, and multi-platform conversions.</p>
+            <div class="mb-4">
+              <span class="price-amount">$1,250</span>
+              <span class="price-period">/ multi-platform</span>
+            </div>
+            <hr class="border-secondary border-opacity-10 my-4">
+            <div class="d-flex flex-column gap-2 small font-monospace text-secondary mb-4">
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 1x 4K Reel + 1x TikTok Post</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 1x YouTube Video Integration (60s)</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 5x Story Sequence with Polls & Links</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> 60-Day Paid Ad Whitelisting</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> Priority Script Collaboration</div>
+            </div>
+            <a href="contact.html" class="btn btn-nexora-primary w-100 justify-content-center mt-auto">BOOK SIGNATURE</a>
+          </div>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="col-lg-4 col-md-6 animate-zoom-in delay-300">
+          <div class="pricing-card h-100 shimmer-card d-flex flex-column">
+            <h4 class="fw-bold mb-2">Brand Ambassador</h4>
+            <p class="text-secondary small mb-4">Exclusive quarterly or annual partnership representing your brand across all channels.</p>
+            <div class="mb-4">
+              <span class="price-amount">Custom</span>
+              <span class="price-period">/ multi-month</span>
+            </div>
+            <hr class="border-secondary border-opacity-10 my-4">
+            <div class="d-flex flex-column gap-2 small font-monospace text-secondary mb-4">
+              <div><i class="bi bi-check2 text-cyan me-2"></i> Monthly Dedicated Multi-Channel Posts</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> Category-Exclusive Ambassadorship</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> In-Person VIP Event & Launch Hosting</div>
+              <div><i class="bi bi-check2 text-cyan me-2"></i> Unlimited Digital Ad Usage Rights</div>
+            </div>
+            <a href="contact.html" class="btn btn-nexora-secondary w-100 justify-content-center mt-auto">REQUEST PROPOSAL</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Usage Volume Calculator Slider Section -->
+  <section class="py-5 my-5 bg-surface border-top border-bottom border-secondary border-opacity-10">
+    <div class="container-fluid px-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 animate-flip-x">
+          <div class="badge-tag">CAMPAIGN REACH CALCULATOR</div>
+          <h2 class="mb-3">Estimate Your Brand Campaign Reach</h2>
+          <p class="text-secondary mb-4">
+            Drag the slider to project your target audience reach and see instant collaboration investment estimates.
+          </p>
+          
+          <div class="p-4 bg-dark rounded-3 border border-secondary border-opacity-20">
+            <div class="d-flex justify-content-between font-monospace text-xs text-muted mb-2">
+              <span>PROJECTED REACH</span>
+              <span id="apiVolumeLabel" class="text-cyan fw-bold">250K Projected Reach</span>
+            </div>
+            <input type="range" class="form-range" id="apiVolumeSlider" min="50" max="5000" step="50" value="250">
+            
+            <div class="d-flex justify-content-between text-muted text-xs font-monospace mt-2">
+              <span>50K</span>
+              <span>1M</span>
+              <span>5M+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center text-lg-start animate-on-scroll">
+          <div class="p-5 rounded-4 border border-indigo border-opacity-30 bg-dark text-center shimmer-card">
+            <img src="assets/images/influencer-hero.jpg" alt="Influencer Campaign Showcase" class="img-fluid rounded-3 border border-secondary border-opacity-10 mb-4" style="max-height: 200px; width: 100%; object-fit: cover;">
+            <span class="font-monospace text-xs text-muted text-uppercase d-block mb-2">Estimated Campaign Investment</span>
+            <div id="calcPriceLabel" class="display-3 fw-bold text-gradient-indigo mb-3">$450</div>
+            <p class="text-secondary small mb-4">Includes custom 4K production, aesthetic styling, FTC compliance, and verified telemetry.</p>
+            <a href="contact.html" class="btn btn-nexora-primary">PROCEED WITH THIS CAMPAIGN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-nexora">
+    <div class="container-fluid px-lg-5">
+      <div class="row g-4 mb-5">
+        
+        <div class="col-lg-4 col-md-6">
+          <a class="brand-logo mb-3" href="index.html">
+            <div class="logo-icon"><i class="bi bi-stars"></i></div>
+            <div class="logo-text">INFLUENCER <span class="logo-tag">OFFICIAL</span></div>
+          </a>
+          <p class="text-muted small mb-4" style="max-width: 320px;">
+            A creative influencer and personal brand sharing ideas, experiences, lifestyle, and authentic stories with a growing global community.
+          </p>
+          <div class="d-flex align-items-center gap-2">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://x.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="X / Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M12.6 0h2.454l-5.36 6.126L16 16h-4.937l-3.867-5.07-4.425 5.07H0.318l5.733-6.554L0 0h5.063l3.495 4.62L12.6 0zm-0.86 14.54h1.36L4.323 1.4h-1.46l8.877 13.14z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white font-monospace text-uppercase mb-3" style="font-size: 0.8rem; letter-spacing: 0.1em;">Content Pillars</h6>
+          <div class="d-flex flex-column">
+            <a href="services.html" class="footer-link">Lifestyle & Living</a>
+            <a href="services.html" class="footer-link">Fashion & Style</a>
+            <a href="services.html" class="footer-link">Travel & Adventure</a>
+            <a href="services.html" class="footer-link">Beauty & Wellness</a>
+            <a href="pricing.html" class="footer-link">Collab Packages</a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white font-monospace text-uppercase mb-3" style="font-size: 0.8rem; letter-spacing: 0.1em;">Explore</h6>
+          <div class="d-flex flex-column">
+            <a href="about.html" class="footer-link">About My Journey</a>
+            <a href="services.html" class="footer-link">Featured Work</a>
+            <a href="pricing.html" class="footer-link">Rate Card & Tiers</a>
+            <a href="coming-soon.html" class="footer-link">Merch Drop</a>
+            <a href="contact.html" class="footer-link">Work With Me</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <h6 class="text-white font-monospace text-uppercase mb-3" style="font-size: 0.8rem; letter-spacing: 0.1em;">Creator Journal Newsletter</h6>
+          <p class="text-muted small mb-3">Subscribe to receive monthly lifestyle curation, behind-the-scenes stories, and creative insights.</p>
+          <form onsubmit="event.preventDefault(); showToast('Subscribed to the Creator Journal');" class="d-flex gap-2">
+            <input type="email" class="form-control form-control-nexora py-2" placeholder="your.email@domain.com" required>
+            <button type="submit" class="btn btn-nexora-primary text-nowrap py-2 px-3">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="border-top border-secondary border-opacity-10 pt-4 d-flex flex-column flex-md-row align-items-center justify-content-between text-muted small">
+        <p class="mb-2 mb-md-0">Copyright © 2026 Influencer. All Rights Reserved.</p>
+        <div class="d-flex gap-4">
+          <a href="404.html" class="text-muted text-decoration-none">Privacy Policy</a>
+          <a href="404.html" class="text-muted text-decoration-none">Terms of Collaboration</a>
+          <a href="404.html" class="text-muted text-decoration-none">Media Kit</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

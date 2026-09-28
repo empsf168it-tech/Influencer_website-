@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Influencer — Creating Content. Building Influence. Inspiring People.</title>
+  <meta name="description" content="A creative influencer sharing ideas, experiences, lifestyle, and authentic stories with a growing community.">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Influencer — Personal Brand & Creator Portfolio">
+  <meta property="og:description" content="Creating Content. Building Influence. Inspiring People. Available for brand collaborations and sponsored partnerships.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom Master Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="tech-grid-bg">
+
+  <!-- Radial Background Glow -->
+  <div class="radial-glow"></div>
+
+  <!-- Header / Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-nexora">
+    <div class="container-fluid px-lg-5">
+      <a class="brand-logo" href="index.html">
+        <div class="logo-icon"><i class="bi bi-stars"></i></div>
+        <div class="logo-text">
+          INFLUENCER <span class="logo-tag">OFFICIAL</span>
+        </div>
+      </a>
+
+      <div class="d-none d-xl-flex align-items-center gap-4 ms-auto me-4">
+        <a class="nav-link-custom active" href="index.html">Home</a>
+        <a class="nav-link-custom" href="services.html">Content</a>
+        <a class="nav-link-custom" href="pricing.html">Packages</a>
+        <a class="nav-link-custom" href="about.html">About</a>
+        <a class="nav-link-custom" href="contact.html">Contact</a>
+      </div>
+
+      <div class="d-flex align-items-center gap-3">
+        <button class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+          <i class="bi bi-sun-fill"></i>
+        </button>
+        <a href="services.html" class="btn btn-nexora-primary d-none d-xl-inline-flex">
+          <i class="bi bi-camera-reels-fill"></i> Explore My Content
+        </a>
+        <button class="nav-icon-btn d-xl-none" id="mobileMenuToggle" aria-label="Open Navigation Menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <div class="mobile-nav-header">
+      <a class="brand-logo" href="index.html">
+        <div class="logo-icon"><i class="bi bi-stars"></i></div>
+        <div class="logo-text">INFLUENCER <span class="logo-tag">OFFICIAL</span></div>
+      </a>
+      <button class="nav-icon-btn" id="mobileMenuClose" aria-label="Close Menu">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Content</a>
+      <a href="pricing.html">Packages</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="d-flex flex-column gap-3 mt-4">
+      <a href="contact.html" class="btn btn-nexora-primary w-100 justify-content-center">Work With Me</a>
+      <a href="services.html" class="btn btn-nexora-secondary w-100 justify-content-center">Explore My Content</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container-fluid px-lg-5">
+      <div class="row align-items-center g-5">
+        
+        <!-- Left Side: Editorial Typography & CTAs -->
+        <div class="col-lg-6 animate-on-scroll">
+          <div class="badge-tag">
+            <i class="bi bi-stars"></i> CREATOR • INFLUENCER • STORYTELLER
+          </div>
+          <h1 class="mb-4">
+            Creating Content. <br>
+            Building Influence. <br>
+            <span class="text-gradient-indigo">Inspiring People.</span>
+          </h1>
+          <h3 class="fw-normal mb-3 text-light-50">
+            Authentic storytelling for modern digital audiences.
+          </h3>
+          <p class="lead mb-4 me-lg-4">
+            A creative influencer sharing ideas, experiences, lifestyle, and authentic stories with a growing community.
+          </p>
+          <div class="d-flex flex-wrap align-items-center gap-3">
+            <a href="contact.html" class="btn btn-nexora-primary">
+              Work With Me <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="services.html" class="btn btn-nexora-secondary">
+              <i class="bi bi-collection-play-fill"></i> Explore My Content
+            </a>
+          </div>
+
+          <div class="d-flex align-items-center gap-4 mt-5 pt-3 border-top border-secondary border-opacity-10">
+            <div>
+              <div class="fw-bold text-gradient h4 mb-0">250K+</div>
+              <small class="text-muted font-monospace">TOTAL FOLLOWERS</small>
+            </div>
+            <div class="vr opacity-25" style="height: 30px;"></div>
+            <div>
+              <div class="fw-bold text-gradient h4 mb-0">8M+</div>
+              <small class="text-muted font-monospace">MONTHLY REACH</small>
+            </div>
+            <div class="vr opacity-25" style="height: 30px;"></div>
+            <div>
+              <div class="fw-bold text-gradient h4 mb-0">120+</div>
+              <small class="text-muted font-monospace">BRAND COLLABS</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Hero Influencer Image & Badges -->
+        <div class="col-lg-6 animate-on-scroll">
+          <div class="position-relative pe-lg-3">
+            
+            <!-- Floating Stat Card 1 -->
+            <div class="floating-api-card floating-api-card-1">
+              <i class="bi bi-instagram text-gradient fs-4"></i>
+              <div>
+                <div class="fw-bold text-sm">250K+ Active Community</div>
+                <small class="text-muted font-monospace">8M+ Monthly Impressions</small>
+              </div>
+            </div>
+
+            <!-- Floating Stat Card 2 -->
+            <div class="floating-api-card floating-api-card-2">
+              <i class="bi bi-patch-check-fill text-warning fs-4"></i>
+              <div>
+                <div class="fw-bold text-sm">Verified Creator Profile</div>
+                <small class="text-muted font-monospace">95% Audience Engagement</small>
+              </div>
+            </div>
+
+            <!-- Hero Visual Image Frame -->
+            <div class="p-3 rounded-4 border border-secondary border-opacity-10 bg-surface shadow-lg overflow-hidden">
+              <img src="assets/images/influencer-hero.jpg" alt="Influencer Official Creator Profile" class="img-fluid rounded-3 w-100 object-fit-cover" style="max-height: 480px; width: 100%; object-fit: cover;">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Statement Intro Section -->
+  <section class="py-5 my-5 border-top border-bottom border-secondary border-opacity-10">
+    <div class="container-fluid px-lg-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9 animate-fade-up">
+          <div class="badge-tag mx-auto">AUTHENTIC STORYTELLING</div>
+          <h2 class="display-4 fw-bold mb-4">
+            ONE VOICE. <br>
+            <span class="text-gradient-indigo">GLOBAL INSPIRATION.</span>
+          </h2>
+          <p class="lead fs-4 text-secondary mx-auto" style="max-width: 780px;">
+            Connecting forward-thinking brands with an engaged, passionate community across lifestyle, fashion, travel, and mindful living through cinema-quality visual storytelling.
+          </p>
+          <div class="mt-4">
+            <div class="mx-auto" style="width: 2px; height: 60px; background: linear-gradient(to bottom, var(--color-accent), transparent);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content & Expertise Horizontal Composition -->
+  <section class="py-5">
+    <div class="container-fluid px-lg-5">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between mb-5 animate-fade-up">
+        <div>
+          <div class="badge-tag">CONTENT & EXPERTISE</div>
+          <h2 class="mb-0">WHAT I CREATE</h2>
+        </div>
+        <p class="text-secondary mb-0" style="max-width: 400px;">
+          Curated content pillars designed to captivate audiences and deliver meaningful brand alignment.
+        </p>
+      </div>
+
+      <div class="service-row-container border-top border-secondary border-opacity-10">
+        
+        <div class="service-row-item d-flex align-items-center justify-content-between flex-wrap gap-3 animate-fade-up">
+          <div class="d-flex align-items-center gap-4">
+            <span class="service-number">01</span>
+            <div>
+              <h4 class="mb-1">LIFESTYLE & LIVING</h4>
+              <p class="text-muted mb-0 small">Mindful daily routines, modern aesthetic living spaces, and inspiring lifestyle rituals.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <span class="font-monospace text-xs text-muted d-none d-md-inline">Vlogs / Daily Routines / Home</span>
+            <i class="bi bi-arrow-right fs-4 service-arrow"></i>
+          </div>
+        </div>
+
+        <div class="service-row-item d-flex align-items-center justify-content-between flex-wrap gap-3 animate-fade-up">
+          <div class="d-flex align-items-center gap-4">
+            <span class="service-number">02</span>
+            <div>
+              <h4 class="mb-1">FASHION & STYLE</h4>
+              <p class="text-muted mb-0 small">Seasonal lookbooks, capsule wardrobes, luxury styling guides, and high-fashion editorials.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <span class="font-monospace text-xs text-muted d-none d-md-inline">Lookbooks / Haute Couture / Streetwear</span>
+            <i class="bi bi-arrow-right fs-4 service-arrow"></i>
+          </div>
+        </div>
+
+        <div class="service-row-item d-flex align-items-center justify-content-between flex-wrap gap-3 animate-fade-up">
+          <div class="d-flex align-items-center gap-4">
+            <span class="service-number">03</span>
+            <div>
+              <h4 class="mb-1">TRAVEL & ADVENTURE</h4>
+              <p class="text-muted mb-0 small">Global destination guides, luxury resort showcases, cultural immersions, and itineraries.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <span class="font-monospace text-xs text-muted d-none d-md-inline">Resorts / Global Guides / Cinematography</span>
+            <i class="bi bi-arrow-right fs-4 service-arrow"></i>
+          </div>
+        </div>
+
+        <div class="service-row-item d-flex align-items-center justify-content-between flex-wrap gap-3 animate-fade-up">
+          <div class="d-flex align-items-center gap-4">
+            <span class="service-number">04</span>
+            <div>
+              <h4 class="mb-1">BEAUTY & WELLNESS</h4>
+              <p class="text-muted mb-0 small">Clean skincare routines, holistic wellness practices, mindful fitness, and cosmetic reviews.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <span class="font-monospace text-xs text-muted d-none d-md-inline">Clean Beauty / Fitness / Skincare</span>
+            <i class="bi bi-arrow-right fs-4 service-arrow"></i>
+          </div>
+        </div>
+
+        <div class="service-row-item d-flex align-items-center justify-content-between flex-wrap gap-3 animate-fade-up">
+          <div class="d-flex align-items-center gap-4">
+            <span class="service-number">05</span>
+            <div>
+              <h4 class="mb-1">PERSONAL GROWTH & TECH</h4>
+              <p class="text-muted mb-0 small">Creator studio setups, productivity workflows, modern tech gear, and motivational insights.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <span class="font-monospace text-xs text-muted d-none d-md-inline">Creator Gear / Tech / Mindset</span>
+            <i class="bi bi-arrow-right fs-4 service-arrow"></i>
+          </div>
+        </div>
+
+        <div class="service-row-item d-flex align-items-center justify-content-between flex-wrap gap-3 animate-fade-up">
+          <div class="d-flex align-items-center gap-4">
+            <span class="service-number">06</span>
+            <div>
+              <h4 class="mb-1">BRAND COLLABORATIONS</h4>
+              <p class="text-muted mb-0 small">Custom integrated campaigns, dedicated reels, product reviews, and exclusive ambassadorships.</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <span class="font-monospace text-xs text-muted d-none d-md-inline">Sponsored / Ambassadorships / UGC</span>
+            <i class="bi bi-arrow-right fs-4 service-arrow"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Creative Workflow Visualization Section -->
+  <section class="py-5 my-5 bg-surface border-top border-bottom border-secondary border-opacity-10">
+    <div class="container-fluid px-lg-5">
+      <div class="text-center mb-5 animate-fade-up">
+        <div class="badge-tag mx-auto">CONTENT PRODUCTION PIPELINE</div>
+        <h2>FROM CONCEPT TO VIRAL IMPACT</h2>
+        <p class="text-secondary mx-auto" style="max-width: 600px;">
+          Click any step below to explore how authentic creative concepts are strategized, filmed in 4K, curated, and shared with millions.
+        </p>
+      </div>
+
+      <!-- Flow Diagram Sequence -->
+      <div class="flow-diagram-container animate-fade-up">
+        <div class="flow-node active" data-node="client">
+          <i class="bi bi-lightbulb-fill flow-node-icon"></i>
+          <div class="fw-bold small">CONCEPT</div>
+          <span class="badge bg-dark font-monospace text-cyan" style="font-size: 0.65rem;">STRATEGY</span>
+        </div>
+
+        <div class="flow-connector-line">
+          <div class="flow-packet"></div>
+        </div>
+
+        <div class="flow-node" data-node="gateway">
+          <i class="bi bi-camera-reels-fill flow-node-icon"></i>
+          <div class="fw-bold small">PRODUCTION</div>
+          <span class="badge bg-dark font-monospace text-cyan" style="font-size: 0.65rem;">4K CINEMA</span>
+        </div>
+
+        <div class="flow-connector-line">
+          <div class="flow-packet" style="animation-delay: 0.6s;"></div>
+        </div>
+
+        <div class="flow-node" data-node="auth">
+          <i class="bi bi-patch-check-fill flow-node-icon"></i>
+          <div class="fw-bold small">ALIGNMENT</div>
+          <span class="badge bg-dark font-monospace text-cyan" style="font-size: 0.65rem;">BRAND VOICE</span>
+        </div>
+
+        <div class="flow-connector-line">
+          <div class="flow-packet" style="animation-delay: 1.2s;"></div>
+        </div>
+
+        <div class="flow-node" data-node="logic">
+          <i class="bi bi-sliders flow-node-icon"></i>
+          <div class="fw-bold small">POST-PROD</div>
+          <span class="badge bg-dark font-monospace text-cyan" style="font-size: 0.65rem;">COLOR & AUDIO</span>
+        </div>
+
+        <div class="flow-connector-line">
+          <div class="flow-packet" style="animation-delay: 1.8s;"></div>
+        </div>
+
+        <div class="flow-node" data-node="db">
+          <i class="bi bi-share-fill flow-node-icon"></i>
+          <div class="fw-bold small">PUBLISHING</div>
+          <span class="badge bg-dark font-monospace text-cyan" style="font-size: 0.65rem;">MULTICHANNEL</span>
+        </div>
+
+        <div class="flow-connector-line">
+          <div class="flow-packet" style="animation-delay: 2.4s;"></div>
+        </div>
+
+        <div class="flow-node" data-node="response">
+          <i class="bi bi-chat-heart-fill flow-node-icon text-success"></i>
+          <div class="fw-bold small">ENGAGEMENT</div>
+          <span class="badge bg-dark font-monospace text-success" style="font-size: 0.65rem;">9.5% VIRAL</span>
+        </div>
+      </div>
+
+      <!-- Flow Inspector Telemetry Display Box -->
+      <div class="mt-4 p-4 rounded-3 border border-secondary border-opacity-20 bg-dark animate-fade-up">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h5 class="text-cyan font-monospace mb-2" id="flowInspectorTitle">CREATIVE CONCEPT & MOODBOARD</h5>
+            <p class="text-secondary mb-0" id="flowInspectorDesc">
+              Brainstorms aesthetic visual themes, viral hooks, lifestyle storytelling angles, and strategic target audience alignment.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+            <span class="badge bg-primary bg-opacity-20 text-indigo font-monospace p-2" id="flowInspectorMeta">
+              Deliverable: Strategy Deck | Creative Direction: High Chic
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Work & Multi-Channel Specs Section -->
+  <section class="py-5">
+    <div class="container-fluid px-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 animate-fade-left">
+          <div class="badge-tag"><i class="bi bi-stars"></i> FEATURED CONTENT & WORK</div>
+          <h2 class="mb-4">STORIES THAT RESONATE.</h2>
+          <p class="lead mb-4">
+            Multi-platform content production tailored to captivate millions across Instagram, YouTube, TikTok, and digital media campaigns.
+          </p>
+          <ul class="list-unstyled mb-4">
+            <li class="d-flex align-items-center gap-3 mb-3">
+              <i class="bi bi-check-circle-fill text-cyan"></i>
+              <span>4K UHD Cinematic Storytelling & Viral Reels</span>
+            </li>
+            <li class="d-flex align-items-center gap-3 mb-3">
+              <i class="bi bi-check-circle-fill text-cyan"></i>
+              <span>High Engagement & Active Community Conversations</span>
+            </li>
+            <li class="d-flex align-items-center gap-3 mb-3">
+              <i class="bi bi-check-circle-fill text-cyan"></i>
+              <span>Data-Driven ROI & Verified Campaign Telemetry</span>
+            </li>
+          </ul>
+          <a href="services.html" class="btn btn-nexora-primary">
+            EXPLORE MY CONTENT <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="col-lg-7 animate-fade-right">
+          <div class="position-relative">
+            <!-- Floating Creative Metric Badge -->
+            <div class="floating-api-card floating-api-card-1 d-none d-sm-flex" style="top: -15px; right: 20px;">
+              <i class="bi bi-camera-video-fill text-gradient fs-4"></i>
+              <div>
+                <div class="fw-bold text-sm">4K Cinema Production</div>
+                <small class="text-muted font-monospace">100% Original High-Res Media</small>
+              </div>
+            </div>
+
+            <!-- Main Featured Image Container -->
+            <div class="p-3 rounded-4 border border-secondary border-opacity-10 bg-surface shadow-lg overflow-hidden">
+              <img src="assets/images/influencer-studio.jpg" alt="Featured Content & Multi-Platform Production" class="img-fluid rounded-3 w-100 object-fit-cover" style="max-height: 440px; width: 100%; object-fit: cover;">
+            </div>
+
+            <!-- Floating Reach Badge -->
+            <div class="floating-api-card floating-api-card-2 d-none d-sm-flex" style="bottom: -15px; left: 20px;">
+              <i class="bi bi-play-circle-fill text-warning fs-4"></i>
+              <div>
+                <div class="fw-bold text-sm">Multi-Platform Campaign</div>
+                <small class="text-muted font-monospace">Reels • Vlogs • TikToks • Stories</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof / Stats Metric Section -->
+  <section class="py-5 my-5 border-top border-bottom border-secondary border-opacity-10">
+    <div class="container-fluid px-lg-5">
+      <div class="row g-0">
+        <div class="col-md-3 col-6 animate-zoom-in delay-100">
+          <div class="metric-card">
+            <div class="metric-number counter-number text-gradient" data-target="250" data-suffix="K+" data-decimals="0">0</div>
+            <div class="metric-label">TOTAL FOLLOWERS</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 animate-zoom-in delay-200">
+          <div class="metric-card">
+            <div class="metric-number counter-number text-gradient-indigo" data-target="8" data-suffix="M+" data-decimals="0">0</div>
+            <div class="metric-label">MONTHLY REACH</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 animate-zoom-in delay-300">
+          <div class="metric-card">
+            <div class="metric-number counter-number text-gradient" data-target="120" data-suffix="+" data-decimals="0">0</div>
+            <div class="metric-label">BRAND COLLABORATIONS</div>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 animate-zoom-in delay-400">
+          <div class="metric-card">
+            <div class="metric-number counter-number text-gradient-indigo" data-target="95" data-suffix="%" data-decimals="0">0</div>
+            <div class="metric-label">AUDIENCE ENGAGEMENT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Split: Why Partner With Me -->
+  <section class="py-5">
+    <div class="container-fluid px-lg-5">
+      <div class="row g-5">
+        <div class="col-lg-4 animate-on-scroll">
+          <div class="sticky-top" style="top: 120px;">
+            <div class="badge-tag">THE CREATOR ADVANTAGE</div>
+            <h2 class="display-4 fw-bold">
+              WHY <br>
+              <span class="text-gradient-indigo">PARTNER</span>
+            </h2>
+            <p class="text-secondary">
+              Dedicated to delivering authentic engagement, cinema-quality visuals, and measurable campaign ROI for global brand partners.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="d-flex flex-column gap-4">
+            
+            <div class="p-4 rounded-3 border border-secondary border-opacity-10 bg-surface animate-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <i class="bi bi-heart-fill text-cyan fs-3"></i>
+                <h4 class="mb-0">Authentic Community Trust</h4>
+              </div>
+              <p class="text-secondary mb-0">Cultivated deep audience loyalty through transparent recommendations, genuine interactions, and thoughtful storytelling.</p>
+            </div>
+
+            <div class="p-4 rounded-3 border border-secondary border-opacity-10 bg-surface animate-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <i class="bi bi-camera-fill text-cyan fs-3"></i>
+                <h4 class="mb-0">High-End Cinema Production</h4>
+              </div>
+              <p class="text-secondary mb-0">Professional 4K cinema cameras, tailored studio lighting, editorial color grading, and crisp sound engineering.</p>
+            </div>
+
+            <div class="p-4 rounded-3 border border-secondary border-opacity-10 bg-surface animate-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <i class="bi bi-graph-up-arrow text-cyan fs-3"></i>
+                <h4 class="mb-0">Prime Demographic Reach</h4>
+              </div>
+              <p class="text-secondary mb-0">74% of the audience is concentrated in the 21–36 age bracket across metropolitan fashion, tech, and travel hubs.</p>
+            </div>
+
+            <div class="p-4 rounded-3 border border-secondary border-opacity-10 bg-surface animate-on-scroll">
+              <div class="d-flex align-items-center gap-3 mb-2">
+                <i class="bi bi-pie-chart-fill text-cyan fs-3"></i>
+                <h4 class="mb-0">Transparent Campaign Analytics</h4>
+              </div>
+              <p class="text-secondary mb-0">Detailed post-campaign reporting including verified impressions, click-through rates, story sticker metrics, and ROI telemetry.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Large Call-To-Action (CTA) Section -->
+  <section class="py-5 my-5">
+    <div class="container-fluid px-lg-5">
+      <div class="p-5 rounded-4 border border-indigo border-opacity-30 bg-surface position-relative overflow-hidden animate-on-scroll" style="box-shadow: 0 0 50px rgba(124, 58, 237, 0.15);">
+        <div class="row align-items-center text-center text-lg-start">
+          <div class="col-lg-8">
+            <h2 class="display-5 fw-bold mb-3">LET'S CREATE SOMETHING MEANINGFUL TOGETHER.</h2>
+            <p class="lead text-secondary mb-0">
+              Available for brand collaborations, campaigns, sponsored content, and creative partnerships.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+            <div class="d-flex flex-column flex-sm-row justify-content-lg-end gap-3">
+              <a href="contact.html" class="btn btn-nexora-primary">WORK WITH ME</a>
+              <a href="services.html" class="btn btn-nexora-secondary">EXPLORE MY CONTENT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-nexora">
+    <div class="container-fluid px-lg-5">
+      <div class="row g-4 mb-5">
+        
+        <div class="col-lg-4 col-md-6">
+          <a class="brand-logo mb-3" href="index.html">
+            <div class="logo-icon"><i class="bi bi-stars"></i></div>
+            <div class="logo-text">INFLUENCER <span class="logo-tag">OFFICIAL</span></div>
+          </a>
+          <p class="text-muted small mb-4" style="max-width: 320px;">
+            A creative influencer and personal brand sharing ideas, experiences, lifestyle, and authentic stories with a growing global community.
+          </p>
+          <div class="d-flex align-items-center gap-2">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://x.com" target="_blank" rel="noopener" class="social-icon-btn" aria-label="X / Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M12.6 0h2.454l-5.36 6.126L16 16h-4.937l-3.867-5.07-4.425 5.07H0.318l5.733-6.554L0 0h5.063l3.495 4.62L12.6 0zm-0.86 14.54h1.36L4.323 1.4h-1.46l8.877 13.14z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white font-monospace text-uppercase mb-3" style="font-size: 0.8rem; letter-spacing: 0.1em;">Content Pillars</h6>
+          <div class="d-flex flex-column">
+            <a href="services.html" class="footer-link">Lifestyle & Living</a>
+            <a href="services.html" class="footer-link">Fashion & Style</a>
+            <a href="services.html" class="footer-link">Travel & Adventure</a>
+            <a href="services.html" class="footer-link">Beauty & Wellness</a>
+            <a href="pricing.html" class="footer-link">Collab Packages</a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <h6 class="text-white font-monospace text-uppercase mb-3" style="font-size: 0.8rem; letter-spacing: 0.1em;">Explore</h6>
+          <div class="d-flex flex-column">
+            <a href="about.html" class="footer-link">About My Journey</a>
+            <a href="services.html" class="footer-link">Featured Work</a>
+            <a href="pricing.html" class="footer-link">Rate Card & Tiers</a>
+            <a href="coming-soon.html" class="footer-link">Merch Drop</a>
+            <a href="contact.html" class="footer-link">Work With Me</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <h6 class="text-white font-monospace text-uppercase mb-3" style="font-size: 0.8rem; letter-spacing: 0.1em;">Creator Journal Newsletter</h6>
+          <p class="text-muted small mb-3">Subscribe to receive monthly lifestyle curation, behind-the-scenes stories, and creative insights.</p>
+          <form onsubmit="event.preventDefault(); showToast('Subscribed to the Creator Journal');" class="d-flex gap-2">
+            <input type="email" class="form-control form-control-nexora py-2" placeholder="your.email@domain.com" required>
+            <button type="submit" class="btn btn-nexora-primary text-nowrap py-2 px-3">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="border-top border-secondary border-opacity-10 pt-4 d-flex flex-column flex-md-row align-items-center justify-content-between text-muted small">
+        <p class="mb-2 mb-md-0">Copyright © 2026 Influencer. All Rights Reserved.</p>
+        <div class="d-flex gap-4">
+          <a href="404.html" class="text-muted text-decoration-none">Privacy Policy</a>
+          <a href="404.html" class="text-muted text-decoration-none">Terms of Collaboration</a>
+          <a href="404.html" class="text-muted text-decoration-none">Media Kit</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Master JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
