@@ -179,6 +179,38 @@ h6.text-white {
   color: var(--text-primary) !important;
 }
 
+.bg-surface {
+  background-color: var(--bg-surface) !important;
+}
+
+.bg-surface-hover {
+  background-color: var(--bg-surface-hover) !important;
+}
+
+.form-control,
+.form-control-nexora,
+.form-select {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.form-control:focus,
+.form-control-nexora:focus,
+.form-select:focus {
+  background-color: var(--bg-surface-hover) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--color-accent) !important;
+  box-shadow: 0 0 0 0.25rem var(--color-accent-soft) !important;
+}
+
+select.form-control-nexora option,
+select.form-control option,
+select.form-select option {
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+}
+
 ::placeholder,
 .form-control-nexora::placeholder {
   color: var(--text-muted) !important;
@@ -1565,23 +1597,39 @@ h6.text-white {
 /* ==========================================================================
    FAQ Accordion Styling
    ========================================================================== */
+.accordion-nexora .accordion-item {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
 .accordion-nexora .accordion-button {
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  box-shadow: none;
-  border: none;
+  background-color: var(--bg-surface) !important;
+  color: var(--text-primary) !important;
+  box-shadow: none !important;
+  border: none !important;
   transition: all var(--transition-fast);
   cursor: pointer;
 }
 
 .accordion-nexora .accordion-button:not(.collapsed) {
-  background: var(--bg-secondary);
-  color: #EC4899;
-  box-shadow: none;
+  background-color: var(--bg-surface-hover) !important;
+  color: #EC4899 !important;
+  box-shadow: none !important;
 }
 
 [data-theme="light"] .accordion-nexora .accordion-button:not(.collapsed) {
-  color: #7C3AED;
+  background-color: var(--bg-surface-hover) !important;
+  color: #7C3AED !important;
+}
+
+.accordion-nexora .accordion-collapse {
+  background-color: var(--bg-surface) !important;
+}
+
+.accordion-nexora .accordion-body {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-secondary) !important;
 }
 
 .accordion-nexora .accordion-button::after {
@@ -1593,7 +1641,7 @@ h6.text-white {
 }
 
 .accordion-nexora .accordion-button:focus {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 
