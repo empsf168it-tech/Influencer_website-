@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initDocSearchAndTester();
   initPricingCalculator();
   initContactForm();
+  initAccordion();
   initBackToTop();
 });
 
@@ -561,4 +562,54 @@ function initBackToTop() {
     });
   });
 }
+
+/* ==========================================================================
+   13. FAQ Accordion Toggle System
+   ========================================================================== */
+function initAccordion() {
+  const accordionButtons = document.querySelectorAll('.accordion-button');
+
+  accordionButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const targetSelector = button.getAttribute('data-bs-target') || button.getAttribute('href');
+      if (!targetSelector) return;
+
+      const targetCollapse = document.querySelector(targetSelector);
+      if (!targetCollapse) return;
+
+      const isExpanded = !button.classList.contains('collapsed');
+      const accordionParent = button.closest('.accordion');
+
+      if (isExpanded) {
+        // Collapse the clicked item
+        button.classList.add('collapsed');
+        button.setAttribute('aria-expanded', 'false');
+        targetCollapse.classList.remove('show');
+      } else {
+        // If within an accordion container with data-bs-parent, collapse siblings
+        if (accordionParent) {
+          const allButtons = accordionParent.querySelectorAll('.accordion-button');
+          const allCollapses = accordionParent.querySelectorAll('.accordion-collapse');
+
+          allButtons.forEach(btn => {
+            btn.classList.add('collapsed');
+            btn.setAttribute('aria-expanded', 'false');
+          });
+
+          allCollapses.forEach(collapse => {
+            collapse.classList.remove('show');
+          });
+        }
+
+        // Expand the target item
+        button.classList.remove('collapsed');
+        button.setAttribute('aria-expanded', 'true');
+        targetCollapse.classList.add('show');
+      }
+    });
+  });
+}
+
 
